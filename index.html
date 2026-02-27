@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Calculator" desc="Using Javascripts ">
+    <title>Title:Build a calculator using Operators & Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <h1>Simple Calculator</h1>
+    <input type="number" id="number1" placeholder="Enter first number">
+    <input type="number" id="number2" placeholder="Enter second number (optional)">
+    
+    <div class="buttons">
+      <button onclick="calculate('+')">+</button>
+      <button onclick="calculate('-')">-</button>
+      <button onclick="calculate('*')">×</button>
+      <button onclick="calculate('/')">÷</button>
+      <button onclick="calculate('square')">x²</button>
+      <button onclick="calculate('cube')">x³</button>
+    </div>
+
+    <div class="result" id="result">Result: </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
