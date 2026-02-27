@@ -20,7 +20,7 @@ body {
 input {
   padding: 10px;
   margin: 10px;
-  width: 10%;
+  width: 20%;
   font-size: 16px;
   border-radius: 5px;
   border:2px solid #3e0641
@@ -51,4 +51,5 @@ button:hover {
   font-size: 20px;
   font-weight: bold;
   color:rgb(125, 42, 161)
+
 }
